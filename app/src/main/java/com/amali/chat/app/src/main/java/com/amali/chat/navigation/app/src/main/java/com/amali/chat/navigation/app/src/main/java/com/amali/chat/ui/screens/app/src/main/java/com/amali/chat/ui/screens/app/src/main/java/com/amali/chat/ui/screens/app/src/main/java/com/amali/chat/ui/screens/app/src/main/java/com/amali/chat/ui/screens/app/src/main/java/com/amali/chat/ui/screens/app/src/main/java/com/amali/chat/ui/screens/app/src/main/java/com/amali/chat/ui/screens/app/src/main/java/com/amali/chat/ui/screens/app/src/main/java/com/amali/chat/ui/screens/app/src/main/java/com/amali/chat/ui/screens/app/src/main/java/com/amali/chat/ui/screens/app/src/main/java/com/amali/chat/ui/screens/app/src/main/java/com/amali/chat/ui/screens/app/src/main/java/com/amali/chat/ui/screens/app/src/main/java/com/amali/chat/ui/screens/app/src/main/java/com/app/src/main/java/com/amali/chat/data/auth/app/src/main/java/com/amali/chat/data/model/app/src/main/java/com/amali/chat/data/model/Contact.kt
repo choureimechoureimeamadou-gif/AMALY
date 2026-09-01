@@ -1,0 +1,8 @@
+package com.amali.chat.data.model
+
+data class Contact(
+    val id: String,
+    val name: String,
+    val phone: String,
+    val photoUrl: String? = null
+)
